@@ -56,7 +56,7 @@ def decode(image_name):
 if __name__ == "__main__":
     input_image = "i.png"
     output_image = "encoded_image.png"
-    secret_data = "THIS IS I FUCK AM"
+    secret_data = ""
 
     encoded_image = encode(image_name=input_image, secret_data=secret_data)
 
